@@ -1,3 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 :root {
-    
+    --link_color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+font-size: 62.5%;
+background-color: rgb(78, 149, 255);   
+font-family: 'Poppins', sans-serif;
+}
+.background_first{
+background-image: "./img/cloud.png";
+}
+.article1
+{
+    text-align: left;
+color:black;
+font-weight: 700;
+font-size: 4.5rem;
+}
+h1
+{
+visibility: hidden;
+}
+a {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: var(--link_color);
+    color:white;
+}
+
+h2{
+    color:white;
+    font-weight: 400;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.article_black
+{
+color:black;
+}
+p
+{
+    font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 2rem;
+    color:white;
+}
+.p_black{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color:black;
+}
+.p_white{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color:white;
+}
+
+.phead_white{
+    font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 1.8rem;
+color:white;
+}
+
+.phead_black{
+    font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 1.8rem;
+color:black;
+}
+
+.button1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 14px;
+    color:black;
+    background-color: var(--link_color);
+    padding:2rem;
+border-radius: 1rem;
+}
+
+.button2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color:white;
+    background-color:black;
+    border-radius: 2rem;
+    padding:1rem;
+}
+
+.button3{
+
+}
+.label_round{
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: white;
+    color:white;
 }
